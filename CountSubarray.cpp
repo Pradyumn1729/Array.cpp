@@ -1,5 +1,8 @@
-class Solution {
-public:
+#include<bits/stdc++.h>
+using namespace std;
+
+
+
     int countCompleteSubarrays(vector<int>& nums) {
       set<int>s;                                                        
       int res=0;
@@ -17,4 +20,11 @@ public:
         return res;
  
     }
-};
+
+
+int main(){
+
+    vector<int> nums={1,3,1,2,2};
+    cout<<"total subarrays are : "<<countCompleteSubarrays(nums);
+    return 0;
+}
