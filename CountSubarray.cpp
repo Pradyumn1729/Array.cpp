@@ -1,8 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
-
     int countCompleteSubarrays(vector<int>& nums) {
       set<int>s;                                                        
       int res=0;
